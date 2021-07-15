@@ -1,0 +1,237 @@
+* { box-sizing: border-box;}
+
+body {
+    font-family: 'Source Sans Pro';
+    margin: 0;
+    color: rgb(80, 80, 80);
+}
+
+p {
+    font-size: 20px;
+}
+
+/* Cabeçalho */
+
+header {
+    
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    
+}
+
+.cabecalho {
+    margin: 0;
+    width: 100%;
+    position: sticky;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(240, 240, 240);
+}
+
+#logoPrincipal a{
+    margin: 5px 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#logoPrincipal a span {
+    color: cornflowerblue;
+}
+
+#navegacao {
+    margin-right: 15px;
+}
+#navegacao a{
+    margin: 5px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    }
+
+    /* Início */
+
+main {
+    margin-top: 50px;
+
+}
+
+.inicio {
+    
+}
+
+#containerInicio {
+    background-image: url(assets/img-fundo.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#tituloInicio {
+    padding: 10px 30px;
+    border: 0.5px solid #fff;
+    border-radius: 5px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgba(0, 139, 139, 0.6);
+    color: #fff;
+}
+
+#tituloInicio h1 {
+    font-size: 50px;
+}
+#tituloInicio p {
+    font-size: 30px;
+}
+
+.tituloParagrafo {
+    width: 100%;
+    margin: 75px 0;
+    text-align: center;
+    color: rgb(80, 80, 80);
+}
+
+.tituloParagrafo h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#containerDestaques {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.fotosDestaques img{
+    width: auto;
+    height: 200px;
+}
+
+.fotosDestaques figcaption {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(0, 139, 139);
+    padding: 10px;
+}
+
+.fotosDestaques figcaption a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(80, 80, 80);
+    padding: 10px;
+}
+
+/* Maps */
+
+#iframe {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+/* Sobre */
+
+#sobre {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 10px;
+
+}
+
+#sobre p {
+    font-size: 18px;
+}
+
+#aPousada, #nossosQuartos, #alimentacao, #recepcao {
+    width: 500px;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 10px 20px 10px 10px;
+    text-align: justify;
+    
+}
+
+#sobre div figure {
+    width: 140px;
+    height: 180px;
+    margin: 0 0 0 15px;
+    padding: 10px 0;
+}
+
+#sobre div figure img {
+    width: 140px;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+/* Rodapé*/
+
+footer {
+    padding: 30px 30px 0 30px;
+    background-color: rgb(60, 163, 103);    
+    min-height: 150px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer a {
+    margin: 5px 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+footer p {
+    color: white;
+}
+
+footer h3 {
+    color: white;
+    font-size: 25px;
+}
+
+footer #contato {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconesContato {
+    width: 280px;
+    height: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+.iconesContato img {
+    height: 70%;
+}
+
+#copyright {
+    text-align: center;
+    border-top: 2px solid rgb(80, 80, 80);
+    margin-top: 10px;
+    
+}

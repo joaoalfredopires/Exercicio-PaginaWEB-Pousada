@@ -1,0 +1,164 @@
+* { box-sizing: border-box;}
+
+body {
+    font-family: 'Source Sans Pro';
+    margin: 0;
+    color: rgb(80, 80, 80);
+}
+
+p {
+    font-size: 20px;
+}
+
+/* Cabeçalho*/
+
+header {
+    
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    
+}
+
+.cabecalho {
+    margin: 0;
+    width: 100%;
+    position: sticky;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 10px 0;
+    background-color: rgb(240, 240, 240);
+}
+
+#logoPrincipal a{
+    margin: 5px 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#logoPrincipal a span {
+    color: cornflowerblue;
+}
+
+#navegacao {
+    margin-right: 15px;
+}
+#navegacao a{
+    margin: 5px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    }
+
+/* Quartos */
+
+#imagemFundo {
+    background-image: url(assets/img-fundo.jpg);
+    background-size: cover;
+    background-position-y: 5%;
+    width: 100%;
+    height: 180px;
+}
+
+.tituloParagrafo {
+    width: 100%;
+    margin: 75px 0 75px 0;
+    text-align: center;
+    color: rgb(80, 80, 80);
+}
+
+.tituloParagrafo h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.fotosQuarto {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.fotosQuarto img {
+    height: 200px;
+    width: auto;
+    margin: 15px;
+}
+
+.lista {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.lista ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.lista ul li {
+    margin: 10px 50px;
+}
+
+#quartoSolteiro, #quartoCasal, #quartoFamilia {
+    margin: 50px 10px;
+}
+
+/* Rodapé */
+
+footer {
+    padding: 30px 30px 0 30px;
+    background-color: rgb(60, 163, 103);    
+    min-height: 150px;
+    max-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer a {
+    margin: 5px 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+footer p {
+    color: white;
+}
+
+footer h3 {
+    color: white;
+    font-size: 25px;
+}
+
+footer #contato {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconesContato {
+    width: 280px;
+    height: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+.iconesContato img {
+    height: 70%;
+}
+
+#copyright {
+    text-align: center;
+    border-top: 2px solid rgb(80, 80, 80);
+    margin-top: 10px;
+    padding-top: 0;
+}
